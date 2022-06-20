@@ -68,6 +68,7 @@ class _HomePageState extends State<HomeScreen> {
                           });
                         },
                         icon: Icon(Icons.add_box)),
+                    hintStyle: TextStyle(fontWeight: FontWeight.w300),
                     hintText: hintText,
                     label: Text(label),
                     border: OutlineInputBorder(
